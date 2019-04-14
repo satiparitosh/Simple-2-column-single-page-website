@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Helvetica, Arial;
+}
+#wrapper{
+    width:1200px;
+    height:auto;
+    border-left:3px solid grey;
+    border-right:3px solid grey;
+    margin:0 auto;
+}
+#header{
+    width:100%;
+    height:500px;
+    background-image:url(https://seattle-mp7static.mlsdigital.net/images/russia-2018.png?4HC1jS0jsFPfEN8uSTP.9Sq8zjgKVj5z);
+    background-size:cover;
+    margin:0;
+    border-bottom:3px solid grey;
+    float:left;
+}
+#sidebar{
+    float:left;
+    width:400px;
+    height:100%;
+    
+}
+#sidebar ul{
+    
+    margin:0;
+    padding:0;
+    float:left;
+    width:100%;
+    height:auto;
+}
+#sidebar ul li{
+    list-style:none;
+    margin:0;
+    padding:0;
+    padding:10px;
+    text-align:center;
+    display:block;
+
+}
+#sidebar ul li a{
+    color:black;
+    text-decoration:none;
+}
+#content{
+    width:797px;
+    float:left;
+    background:white;
+    border-left:3px solid grey;
+}
+#content h1{
+    text-align:center;
+    border-bottom:1px solid grey;
+}
+#content img{
+    float:right;
+    padding:0 5px 5px 5px;
+}
+#content p{
+    line-height:25px;
+    text-indent:50px;
+    text-align:justify;
+    padding:0 10px 0 10px;
+}
